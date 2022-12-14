@@ -1,0 +1,18 @@
+﻿<Application x:Class="JazChatApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:JazChatApp"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source ="./Themes/ContactCard.Xaml"/>
+                <ResourceDictionary Source ="./Themes/ChatItem.Xaml"/>
+                <ResourceDictionary Source ="./Themes/MessageBox.Xaml"/>
+                <ResourceDictionary Source ="./Themes/StylishScrollbar.Xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+    </Application.Resources>
+</Application>
